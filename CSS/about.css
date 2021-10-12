@@ -1,0 +1,330 @@
+*{
+    box-sizing: border-box;
+    margin: 0%;
+    /* font-size: 3vw; */
+    /* margin: 5px; */
+    /* background: wheat; */
+}
+
+p{
+    font-size: 1.5vw;
+}
+
+.main{
+    /* to make the div cover the entire page */
+    height: 100vh;
+    width: 100%;
+    /* height: auto; */
+    /* /* background-repeat: no-repeat; */
+    padding-top: 10%;
+    /* background-position: center;
+    background-size: center;
+    box-sizing: border-box; */
+}
+
+#name{
+    text-align: center;
+    font-size: 4vw;
+    padding-top: 5%;
+}
+
+#sub_head{
+    text-align: center;
+    padding-top: 1.5%;
+    font-size: 1.7vw;
+    padding-bottom: 1.7%;
+}
+
+/* for socials */
+.row-2{
+    display: flex;
+    padding-top: 5px;
+    padding-right: 35px;
+    padding-bottom: 5%;
+}
+
+#soclst{
+    display: inline;
+    padding: 25px;
+    font-size: 1vw;
+}
+
+.socials{
+    display: table;
+    margin: 0 auto;
+}
+
+#social{
+    text-decoration: none;
+}
+
+.fa-linkedin{
+    color: #0077b5;
+}
+
+.fa-linkedin:hover{
+    color: #00a0dc;
+}
+
+.fa-github{
+    color: #6cc644;
+}
+
+.fa-github:hover{
+    color:#61E328;
+}
+
+.fa-envelope{
+    color: #F02C1C;
+}
+
+.fa-envelope:hover{
+    color: #F95446;
+}
+
+.fa-file{
+    color: yellow;
+}
+
+/* li{
+    display: inline;
+} */
+
+#social:hover{
+    text-decoration: underline;
+}
+
+
+/* #img_of_me{
+    position: relative;
+    width: 14%;
+    border-radius: 50%;
+} */
+
+#work_exp{
+    background-size: contain;
+}
+
+#recent_projects{
+    text-align: center;
+    /* color: #cc99ff; */
+    color: whitesmoke;
+    font-size: 4vw;
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+
+.row-bds{
+    display: flex;
+    color: white;
+}
+
+#bds_img{
+    width: 70%;
+    padding-left: 30px;
+}
+
+#bds{
+    position: absolute;
+    right: 30px;
+    width: 45%;
+    color: white;
+}
+
+.row-sheepy{
+    display: flex;
+    color: white;
+    padding-top: 2%;
+    padding-bottom: 10vh;
+}
+
+#sheepy{
+    text-align: left;
+    width: 45%;
+    padding-left: 30px;
+    padding-top: 5%;
+    padding-bottom: 3%;
+    color: white;
+}
+
+#simg{
+    position: absolute;
+    right: 5%;
+    max-width: 40%;
+    /* height: auto; */
+    height: 40vh;
+}
+
+/* #simg2{
+    padding-top: 3%;
+    position: absolute;
+    right: 30px;
+    max-width: 40%;
+    height: 25%;
+} */
+
+.row-cori{
+    display: flex;
+    color: white;
+    padding-bottom: 5%;
+}
+
+#corimg{
+    padding-left: 30px;
+    padding-top: 5%;
+    width: 40%;
+}
+
+#cori{
+    padding-top: 5%;
+    position: absolute;
+    right: 30px;
+    width: 45%;
+    color: white;
+}
+
+#cori_link{
+    text-decoration: none;
+    color: skyblue;
+}
+
+/* .div1{
+    put bg color
+} */
+
+.split_text{
+    display: flex;
+}
+
+
+
+
+#head{
+    /* color: whitesmoke; */
+    color: #99ccff;
+    text-align: center;
+    font-size: 3vw;
+}
+
+#bds1{
+    float: left;
+    width: 33%;
+    padding-left: 3%;
+    padding-right: 2%;
+}
+
+#bds_img{
+    max-width: 100%;
+    max-height: 100%;
+    padding-left: 15%;
+}
+
+#discord{
+    float: left;
+    width: 33%;
+    padding-left: 2%;
+    /* padding-right: 2%; */
+}
+
+#mss_img{
+    max-width: 100%;
+    max-height: 100%;
+}
+
+#ibm{
+    float: right;
+    width: 33%;
+    padding-left: 5%;
+    padding-right: 3%;
+}
+
+#cert{
+    max-width: 100%;
+    max-width: 100%;
+}
+
+.split_img{
+    display: flex;
+}
+
+
+
+#about_me{
+    text-align: center;
+    /* font-size: 3vw; */
+    font-size: 4vw;
+    padding-top: 5%;
+    padding-bottom: 3%;
+}
+
+.row-1{
+    display: flex;
+    /* background: cornsilk; */
+    color: white;
+
+}
+
+#text-1{
+    text-align: left;
+    padding-left: 2%;
+    width: 50%;
+    
+}
+
+#skills_head{
+    position: absolute;
+    right: 20%;
+    font-size: 2vw;
+    
+    color: #cc99ff;
+}
+
+#skillst{
+    font-size: 1.5vw;
+    position: absolute;
+    right: 20%;
+    padding-top: 3%;
+    padding-bottom: 20px;
+    /* color: #99ccff; */
+}
+
+#contact_head{
+    font-size: 3vw;
+    text-align: left;
+    padding-left: 2%;
+    padding-bottom: 1%;
+    color: #99ccff;
+}
+
+#contact{
+    text-align: left;
+    padding-left: 2%;
+    width: 50%;
+    font-size: 1.5vw;
+    text-decoration: none;
+    color: white;
+}
+
+#contact_{
+    text-align: left;
+    padding-left: 2%;
+    font-size: 200%;
+}
+
+#bottom_arrow{
+    padding-left: 50%;
+}
+
+.fa-arrow-circle-up{
+    color: #00ffff;
+}
+
+
+
+
+/* MEDIA QUERIES */
+/* @media (orientation: portrait){
+    #name{
+        font-style: italic;
+    }
+} */

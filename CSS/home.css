@@ -1,0 +1,251 @@
+*{
+    box-sizing: border-box;
+    margin: 0%;
+    /* font-size: 3vw; */
+    /* margin: 5px; */
+    /* background: wheat; */
+}
+
+p{
+    font-size: 1.5vw;
+}
+
+.main{
+    /* to make the div cover the entire page */
+    height: 100vh;
+    width: 100%;
+    /* height: auto; */
+    /* /* background-repeat: no-repeat; */
+    padding-top: 10%;
+    /* background-position: center;
+    background-size: center;
+    box-sizing: border-box; */
+}
+
+#name{
+    text-align: center;
+    font-size: 4vw;
+    padding-top: 5%;
+}
+
+#sub_head{
+    text-align: center;
+    padding-top: 5px;
+    font-size: 1.7vw;
+}
+
+/* for socials */
+.row-2{
+    display: flex;
+    padding-top: 5px;
+    padding-right: 35px;
+    padding-bottom: 5%;
+}
+
+#soclst{
+    display: inline;
+    padding: 5px;
+    font-size: 1vw;
+}
+
+.socials{
+    display: table;
+    margin: 0 auto;
+}
+
+#social{
+    text-decoration: none;
+}
+
+.fa-linkedin{
+    color: #0077b5;
+}
+
+.fa-linkedin:hover{
+    color: #00a0dc;
+}
+
+.fa-github{
+    color: #6cc644;
+}
+
+.fa-github:hover{
+    color:#61E328;
+}
+
+.fa-envelope{
+    color: #F02C1C;
+}
+
+.fa-envelope:hover{
+    color: #F95446;
+}
+
+/* li{
+    display: inline;
+} */
+
+#social:hover{
+    text-decoration: underline;
+}
+
+
+#skills_head{
+    position: absolute;
+    right: 20%;
+    font-size: 2vw;
+}
+
+#skillst{
+    font-size: 1.5vw;
+    position: absolute;
+    right: 20%;
+    padding-top: 3%;
+    padding-bottom: 20px;
+}
+
+/* #img_of_me{
+    position: relative;
+    width: 14%;
+    border-radius: 50%;
+} */
+
+
+#recent_projects{
+    text-align: center;
+    color: white;
+    font-size: 3vw;
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+
+.row-bds{
+    display: flex;
+    color: white;
+}
+
+#bdsimg{
+    width: 40%;
+    padding-left: 30px;
+}
+
+#bds{
+    position: absolute;
+    right: 30px;
+    width: 45%;
+    color: white;
+}
+
+.row-sheepy{
+    display: flex;
+    color: white;
+    padding-top: 2%;
+    padding-bottom: 10vh;
+}
+
+#sheepy{
+    text-align: left;
+    width: 45%;
+    padding-left: 30px;
+    padding-top: 5%;
+    padding-bottom: 3%;
+    color: white;
+}
+
+#simg{
+    position: absolute;
+    right: 5%;
+    max-width: 40%;
+    /* height: auto; */
+    height: 40vh;
+}
+
+/* #simg2{
+    padding-top: 3%;
+    position: absolute;
+    right: 30px;
+    max-width: 40%;
+    height: 25%;
+} */
+
+.row-cori{
+    display: flex;
+    color: white;
+    padding-bottom: 5%;
+}
+
+#corimg{
+    padding-left: 30px;
+    padding-top: 5%;
+    width: 40%;
+}
+
+#cori{
+    padding-top: 5%;
+    position: absolute;
+    right: 30px;
+    width: 45%;
+    color: white;
+}
+
+#cori_link{
+    text-decoration: none;
+    color: skyblue;
+}
+
+/* .div1{
+    put bg color
+} */
+
+#about_me{
+    text-align: center;
+    /* font-size: 3vw; */
+    font-size: 3rem;
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+
+.row-1{
+    display: flex;
+    /* background: cornsilk; */
+}
+
+#text-1{
+    text-align: left;
+    padding-left: 30px;
+    width: 50%;
+}
+
+#navbar {
+    position: sticky;
+    top: 1%;
+    /* background: aliceblue; */
+}
+
+#navbar a {
+    float: left;
+    /* float: center; */
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px;
+    text-decoration: none;
+    background: black;
+}
+
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+
+
+
+
+/* MEDIA QUERIES */
+@media (orientation: portrait){
+    #name{
+        font-style: italic;
+    }
+}
